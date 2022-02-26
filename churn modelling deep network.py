@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 
 pd.set_option('display.max_columns', 500)
 
-df = pd.read_csv("C:\\Users\\44748\\Desktop\\Keele\\Machine Learning\\Projects\\ANN\\Churn_Modelling.csv")
+df = pd.read_csv("")
 
 
 X = df.iloc[:, 3:-1].values
